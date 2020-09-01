@@ -9,8 +9,7 @@ public class Main {
         Ship ship = new Ship("Mumbai", 8000);
 
         Vehicle[] allVehicle = {car, plane, ship};
-        for (Vehicle v: allVehicle
-             ) {
+        for (Vehicle v: allVehicle) {
             v.showinfo();
             System.out.println("+++++++++++++++++++++++");
         }

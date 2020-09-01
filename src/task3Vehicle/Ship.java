@@ -21,9 +21,10 @@ public class Ship extends Vehicle {
 
     @Override
     public void showinfo() {
-        System.out.println("The price: " + getPrice());
-        System.out.println("The speed: " + getSpeed());
-        System.out.println("The year: " + getYear());
+//        System.out.println("The price: " + getPrice());
+//        System.out.println("The speed: " + getSpeed());
+//        System.out.println("The year: " + getYear());
+        super.showinfo(); // Через вызов метода базового класса
         System.out.println("The number of passengers:" + getShippassengers());
         System.out.println("The port: " + getPort());
 
