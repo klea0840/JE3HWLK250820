@@ -1,6 +1,6 @@
 package task4DocumentWorker;
 
-public class ProDocumentWorker extends DocumentWorker{
+public class ProDocumentWorker extends DocumentWorker {
     @Override
     public void openDocument() {
         System.out.println("Документ открыт");

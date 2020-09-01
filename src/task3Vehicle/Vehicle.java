@@ -2,6 +2,10 @@ package task3Vehicle;
 
 public class Vehicle {
 
+    // В условии прописано, что также нужны координаты
+    double latitude;
+    double longitude;
+
     double price;
     int speed;
     int year;
@@ -24,7 +28,7 @@ public class Vehicle {
         return year;
     }
 
-    public void showinfo() {
+    public void showinfo() { // Camelcase'ом имена методов...
         System.out.println("The price: " + getPrice());
         System.out.println("The speed: " + getSpeed());
         System.out.println("The year: " + getYear());
